@@ -1,0 +1,410 @@
+@import "variables.scss";
+@import "generales.scss";
+@import "nav.scss";
+@import "vuelosForm.scss";
+@import "banco.scss";
+@import "suscribir.scss";
+@import "datosEmpresa.scss";
+@import "footer.scss";
+@import "login.scss";
+@import "vuelosCards.scss";
+.carousel-item {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.carousel-item h1 {
+    font-size: 1.5rem;
+    color: $colorTexto;
+    position: absolute;
+    top: 45px;
+    left: 135px;
+}
+
+
+/*-------------ALOJAMIENTO--------------*/
+
+.buscaAlojamiento {
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+.buscaAlojamiento h1 {
+    color: lavenderblush;
+    font-weight: bold;
+}
+
+.inputAlojamiento {
+    width: 100%;
+}
+
+label {
+    font-size: 1.1rem;
+    color: lavenderblush;
+}
+
+@media (min-width: 768px) {
+    .carousel-item h1 {
+        font-size: 2.5rem;
+        color: $colorTexto;
+        position: absolute;
+        top: 70px;
+        left: 240px;
+    }
+    .carousel-caption {
+        font-size: .8rem;
+        opacity: .6;
+    }
+    #imgPrincipal {
+        height: 500px;
+    }
+    #titulo {
+        font-size: 3.5rem;
+    }
+    #empezar {
+        font-size: 1.2rem;
+    }
+    /* FORMULARIO VUELOS */
+    .radios {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .radios ul li {
+        margin-right: 50px;
+    }
+    .comboDestino input {
+        width: 300px;
+    }
+    .fechas input {
+        width: 255px;
+    }
+    .comboPersonas #cantidad {
+        padding: 0;
+        text-align: center;
+        width: 150px;
+    }
+    .comboPersonas select {
+        margin: 0;
+        width: 200px;
+    }
+    .comboPersonas .containerClases {
+        margin-right: 10px;
+    }
+    /* VUELOS ARGENTINA */
+    .volaArg h2 {
+        font-size: 2.3rem;
+    }
+    .cartas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    #carta3 {
+        display: block;
+    }
+    .containerImagen4 {
+        border-radius: 40px 40px 0px 0px;
+        margin: 0;
+        display: flex;
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/tierra_del_fuego.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 60px;
+    }
+    /* VUELOS AFUERA */
+    #carta9 {
+        display: block;
+    }
+    .containerImagen10 {
+        border-radius: 40px 40px 0px 0px;
+        margin: 0;
+        display: flex;
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/roma.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 60px;
+    }
+    /*-------------ALOJAMIENTO--------------*/
+    /*BANCOS*/
+    .bank {
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bank img {
+        width: 80px;
+    }
+    .bank ul li {
+        list-style-type: none;
+    }
+    ul .listBank {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .suscribir {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #suscribir label {
+        padding-bottom: 0px;
+        margin-right: 20px;
+    }
+    #suscribir input {
+        margin: 0;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-item h1 {
+        font-size: 4rem;
+        color: $colorTexto;
+        position: absolute;
+        top: 150px;
+        left: 500px;
+    }
+    .carousel-caption {
+        font-size: 1.2rem;
+        opacity: .8;
+    }
+    #imgPrincipal {
+        height: 700px;
+    }
+    #titulo {
+        font-size: 4.5rem;
+    }
+    /* FORMULARIO */
+    .buscaVuelo {
+        height: 325px;
+    }
+    .buscaVuelo form {
+        margin: 0;
+        padding: 0;
+    }
+    .buscaVuelo h2 {
+        padding-top: 50px;
+        text-align: start;
+    }
+    .radios ul {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+    .radios ul li {
+        margin-right: 50px;
+    }
+    .radios button {
+        display: block;
+        border-radius: 30px;
+        font-weight: 500;
+    }
+    .radios li .btnHospedaje {
+        padding-bottom: 30px;
+    }
+    .comboDestinoFecha {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .comboDestino {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 20px;
+    }
+    .comboDestino i {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .comboDestino input {
+        text-align: start;
+        padding: 10px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .fechas ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .fechas input {
+        width: 175px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .comboPersonas {
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 20px;
+    }
+    .comboPersonas #cantidad {
+        padding: 0;
+        text-align: center;
+        width: 150px;
+    }
+    .comboPersonas select {
+        margin: 0;
+        width: 200px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+    .containerClases label {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .btnBuscar {
+        position: relative;
+        bottom: 105px;
+        left: 700px;
+        width: 370px;
+    }
+    /* VUELOS ARGENTINA */
+    .cartas {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #carta4 {
+        display: block;
+    }
+    #carta5 {
+        display: block;
+    }
+    .containerImagen5 {
+        border-radius: 40px 40px 0px 0px;
+        margin: 0;
+        display: flex;
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/villa_carlos_paz.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 60px;
+    }
+    .containerImagen6 {
+        border-radius: 40px 40px 0px 0px;
+        margin: 0;
+        display: flex;
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/calafate.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 60px;
+    }
+    /* VUELOS AFUERA */
+    #carta10 {
+        display: block;
+    }
+    #carta11 {
+        display: block;
+    }
+    .containerImagen11 {
+        border-radius: 40px 40px 0px 0px;
+        margin: 0;
+        display: flex;
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/cancun.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 60px;
+    }
+    .containerImagen12 {
+        border-radius: 40px 40px 0px 0px;
+        margin: 0;
+        display: flex;
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/img_japon.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 60px;
+    }
+    /*-----ALOJAMIENTO------*/
+    .buscaAlojamiento {
+        height: 250px;
+    }
+    .fechaHospedaje li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    label {
+        font-size: 1.3rem;
+        color: lavenderblush;
+    }
+    .btnBuscarHospe {
+        position: relative;
+        bottom: 73px;
+        left: 700px;
+        width: 370px;
+    }
+    /* BANCOS */
+    .bank img {
+        width: 120px;
+    }
+    .bank p {
+        font-size: 1.2rem;
+    }
+    .bank div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .bank .listBank li {
+        margin-right: 40px;
+    }
+    #btnBancos {
+        width: 20%;
+        height: 50%;
+    }
+    /* SUSCRIBIR */
+    #suscribir {
+        display: flex;
+    }
+    .suscribir .container {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .container #suscribir {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #suscribir p {
+        width: 50px;
+    }
+    #suscribir input {
+        margin: 0;
+        width: 10px;
+    }
+    #btnSuscribir {
+        width: 200px;
+    }
+    /*FOOTER*/
+    .texto {
+        color: lavenderblush;
+        font-size: 1rem;
+        display: flex;
+        text-align: center;
+    }
+    footer {
+        height: 350px;
+    }
+    footer a {
+        font-weight: 400;
+    }
+    footer i {
+        font-size: 25px;
+    }
+    footer .logo {
+        font-size: 4.2rem;
+    }
+}

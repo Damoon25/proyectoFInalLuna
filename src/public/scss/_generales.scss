@@ -1,0 +1,46 @@
+* {
+    font-family: $fuentePrimaria;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin transicionar {
+    transition: border-color 0.2s ease;
+}
+
+input {
+    @include transicionar;
+    border-color: lavenderblush;
+    border-radius: 10px;
+    padding: 7px 7px;
+    &:hover {
+        border-color: $colorPrincipal;
+    }
+}
+
+select {
+    transition: border-color 0.2s ease;
+    border-color: lavenderblush;
+    border-radius: 10px;
+    padding: 7px 7px;
+    &:hover {
+        border-color: $colorBase;
+    }
+}
+
+button {
+    transition: border-color 0.8s ease;
+    color: lavenderblush;
+    background-color: transparent;
+    border: rgba(200, 200, 200, 0.3) solid 2px;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-width: 2px;
+    &:hover {
+        border-color: $colorBase;
+        box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
+    }
+}

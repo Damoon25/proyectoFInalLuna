@@ -1,0 +1,29 @@
+.datosEmpresa {
+    padding-top: 10px;
+    height: 130px;
+    background-color: rgb(111, 111, 111);
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        p {
+            color: $colorTexto;
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s ease;
+            color: $colorTexto;
+            font-weight: bold;
+        }
+        #negrita {
+            cursor: pointer;
+            transition: color 0.5s ease;
+            color: lavenderblush;
+            font-weight: bold;
+        }
+    }
+}

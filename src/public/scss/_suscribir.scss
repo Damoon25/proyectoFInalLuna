@@ -1,0 +1,36 @@
+.suscribir {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 20px;
+        #suscribir {
+            margin-left: 0px;
+            margin-right: 0px;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 20px;
+            label {
+                color: $colorBody;
+                padding-bottom: 10px;
+            }
+            input {
+                margin: 0;
+                width: 100%;
+            }
+        }
+        #btnSuscribir {
+            border: 1px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            background-color: $colorBase;
+            color: lavenderblush;
+            width: 100%;
+            &:hover {
+                color: #2B86C5;
+                background-color: lavenderblush;
+                border-color: #2B86C5;
+            }
+        }
+    }
+}

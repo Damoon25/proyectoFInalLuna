@@ -1,0 +1,32 @@
+$fuentePrimaria: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&family=Roboto&display=swap');
+$fuenteSecundaria: 'Kaushan Script',
+cursive;
+$colorPrincipal: #FF3CAC;
+$gradiente: linear-gradient(225deg,
+#FF3CAC 0%,
+#784BA0 50%,
+#2B86C5 100%);
+$colorBase: #2B86C5;
+$gradienteOscura: linear-gradient( 0deg,
+rgba(0, 0, 0, 0.6),
+rgba(0, 0, 0, 0.6)),
+url('../img/img_honolulu.jpg');
+$colorTexto: lavenderblush;
+$colorBody: rgb(21,
+21,
+21);
+;
+$fuenteBody: 1.2rem;
+$sombraCarta: 10px 10px 10px rgba(50,
+50,
+50,
+0.3);
+$carta: ( radio: 40px 40px 0px 0px,
+display: flex,
+sombra: linear-gradient( 0deg,
+rgba(0, 0, 0, 0.45),
+rgba(0, 0, 0, 0.45)),
+bgRepetir: no-repeat,
+bgTamaño: cover,
+bgPosicion: center center,
+cartaPadding: 60px 60px);

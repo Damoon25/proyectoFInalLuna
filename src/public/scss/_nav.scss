@@ -1,0 +1,13 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: $colorPrincipal;
+    background-image: $gradiente;
+    height: 70px;
+    font-size: 1.1rem;
+    .navbar-brand {
+        color: lavenderblush;
+        font-family: $fuenteSecundaria;
+        font-size: 2rem;
+    }
+}

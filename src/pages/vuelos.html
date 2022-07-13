@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elige vuelos, hoteles y todo lo necesario para que tengas el viaje de tus sueños con el mejor precio">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="../public/css/main.css">
+    <title>Vuelos || PLANEANDO!</title>
+    <!--BOOTSTRAP 5.2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--FONT AWESOME-->
+    <!--<script src="https://kit.fontawesome.com/4cc74c09d1.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,300;1,100;1,400&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-expand">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">Planeando!</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html"><i class="fas fa-home"></i> Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./vuelos.html"><i class="fas fa-plane"></i> Vuelos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./alojamiento.html"><i class="fas fa-bed"></i>  Alojamiento</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"><i class="fas fa-box-open"></i>  Paquetes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"><i class="fas fa-hiking"></i>  Actividades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./login.html" style="margin-left: 30px;"><i class="fas fa-user"></i>  Usuario</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../public/img/img_honolulu.jpg" class="img-fluid d-block w-100" alt="img_honolulu.jpg">
+                    <div>
+                        <h1>Los mejores vuelos <br> a tu disposición <br> con el mejor precio</h1>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Honolulu , Hawai</h2>
+                        <p>Un Viaje a una de las capitales paradisíacas del mundo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../public/img/img_borabora.jpg" class="img-fluid d-block w-100" alt="img_borabora.jpg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Bora Bora , Maldivas</h2>
+                        <p>Tomate un descanso y viaja a este paraíso.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../public/img/img_austria.jpg" class="img-fluid d-block w-100" alt="img_austria.jpg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Hochfeiler , Austria</h2>
+                        <p>Si lo tuyo son las montañas, Viaja a Austria.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="buscaVuelo">
+            <div class="container">
+                <h2>Encontrá los mejores vuelos</h2>
+                <form class="containerDatos">
+                    <div class="radios">
+                        <ul>
+                            <li>
+                                <input type="radio" name="soloIda" id="soloIda">
+                                <label for="soloIda">Solo ida </label>
+                            </li>
+                            <li>
+                                <input type="radio" name="idaVuelta" id="idaVuelta">
+                                <label for="idaVuelta">Ida y vuelta </label>
+                            </li>
+                            <li>
+                                <input type="radio" name="multidestino" id="multidestino">
+                                <label for="multidestino">Multidestino </label>
+                            </li>
+                            <li>
+                                <div class="btnHospedaje">
+                                    <button>Agregar Hospedaje</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="comboDestinoFecha">
+                        <div class="comboDestino">
+                            <input type="search" name="salgoDe" id="salgoDe" placeholder="Salgo de...">
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <input type="search" name="voy" id="voy" placeholder="Voy a...">
+                        </div>
+                        <div class="fechas">
+                            <ul>
+                                <li>
+                                    <label for="salida">Salida</label>
+                                    <input type="date" name="salida" id="salida">
+                                </li>
+                                <li>
+                                    <label for="salida">Regreso</label>
+                                    <input type="date" name="salida" id="salida">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comboPersonas">
+                        <select name="personas" id="personas">
+                            <option>Adultos</option>
+                            <option>Menores</option>
+                            <option>Bebes</option>
+                        </select>
+                        <input type="number" name="personas" id="cantidad" placeholder="cantidad">
+                        </select>
+                        <div class="containerClases">
+                            <label for="clases">Clase</label>
+                            <select name="clases" class="clases">
+                                <option value="1">Todas</option>
+                                <option value="2">Primera</option>
+                                <option value="3">Business</option>
+                                <option value="4">Premium</option>
+                                <option value="5">Económica</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="btnCheck">
+                        <label for="checkbox">Todavía no tengo fecha definida</label>
+                    </div>
+                    <div class="btnBuscar">
+                        <button id="buscar">BUSCAR</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <section class="volaArg">
+            <h2>Volá por Argentina, animate!</h2><br><br>
+            <div class="container">
+                <div class="cartas">
+                    <div class="carta" id="carta">
+                        <div class="containerImagen">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Iguazú</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 15.650</b>
+                    </div>
+                    <div class="carta" id="carta1">
+                        <div class="containerImagen1">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Bariloche</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 22.350</b>
+                    </div>
+                    <div class="carta" id="carta2">
+                        <div class="containerImagen2">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Salta</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 17.860</b>
+                    </div>
+                    <div class="carta" id="carta3">
+                        <div class="containerImagen3">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Tierra del Fuego</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 23.350</b>
+                    </div>
+                    <div class="carta" id="carta4">
+                        <div class="containerImagen4 ">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Villa Carlos Páz</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 12.550</b>
+                    </div>
+                    <div class="carta" id="carta5">
+                        <div class="containerImagen5">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Calafate</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 18.990</b>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="volaAfuera">
+            <h2>Descubri nuevos viajes pagando en cuotas!</h2>
+            <div class="container">
+                <div class="cartas">
+                    <div class="carta" id="carta6">
+                        <div class="containerImagen6">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Florianópolis</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 45.550</b>
+                    </div>
+                    <div class="carta" id="carta7">
+                        <div class="containerImagen7">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Los Alpes</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 185.455</b>
+                    </div>
+                    <div class="carta" id="carta8">
+                        <div class="containerImagen8">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Río de Janeiro</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 48.880</b>
+                    </div>
+                    <div class="carta" id="carta9">
+                        <div class="containerImagen9">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Roma</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 250.380</b>
+                    </div>
+                    <div class="carta" id="carta10">
+                        <div class="containerImagen10">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Cancún</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 90.780</b>
+                    </div>
+                    <div class="carta" id="carta11">
+                        <div class="containerImagen11">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Tokio</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 350.980</b>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div class="bank">
+                    <p>Tenemos la mejor financiación para tu viaje, no te lo pierdas!</p>
+                    <div>
+                        <button id="btnBancos">VER TODOS LOS BANCOS</button>
+                        <ul>
+                            <div class="listBank">
+                                <li><img src="../public/img/BBVA-logo.png" alt="banco"></li>
+                                <li><img src="../public/img/bancoNacion-logo.png" alt="banco"></li>
+                                <li><img src="../public/img/supervielle-logo.png" alt="banco"></li>
+                                <li><img src="../public/img/santander-logo.png" alt="banco"></li>
+                                <li><img src="../public/img/comafi-logo.png" alt="banco"></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="suscribir">
+            <div class="container">
+                <div id="suscribir">
+                    <label for="emailUsuario">No te pierdas las promociones</label>
+                    <input type="email" name="emailUsuario" placeholder="Ingresá tu email">
+                </div>
+                <div>
+                    <button id="btnSuscribir">SUSCRIBIRME</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="datosEmpresa">
+        <div class="container">
+            <p>Para defensa de las y los consumidores, ingrese <a href="#">aquí</a></p>
+            <p>Atención al cliente: <span id="negrita">0810.453.4413</span></p>
+            <p><span>Lunes a sabados</span> de 11 a 21hs.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="logo">Planeando!</p>
+            <div class="iconos">
+                <i class="fab fa-facebook" id="facebook"></i>
+                <i class="fab fa-twitter" id="twitter"></i>
+                <i class="fab fa-instagram" id="instagram"></i>
+                <i class="fab fa-linkedin-in" id="linkedin"></i>
+                <i class="fab fa-tiktok" id="tiktok"></i>
+            </div>
+            <hr>
+            <a href="">Condiciones generales</a>
+            <a href="">Política de seguridad</a>
+            <a href="">Política de privacidad</a>
+            <a href="">Términos y condiciones del uso</a>
+            <hr>
+            <p class="texto">the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

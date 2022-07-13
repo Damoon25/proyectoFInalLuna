@@ -1,0 +1,97 @@
+.buscaVuelo {
+    color: lavenderblush;
+    margin: 0;
+    background-color: $colorPrincipal;
+    background-image: $gradiente;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        list-style-type: none;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .radios {
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            li {
+                list-style-type: none;
+            }
+        }
+    }
+    .comboDestino {
+        display: flex;
+        justify-content: space-around;
+        input {
+            width: 315px;
+            margin-bottom: 20px;
+        }
+        i {
+            padding: 10px;
+        }
+    }
+    .fechas {
+        ul {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            li {
+                list-style-type: none;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.fechas input {
+    width: 175px;
+}
+
+.comboPersonas {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.comboPersonas #cantidad {
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+
+.comboPersonas select {
+    margin: 0;
+    width: 150px;
+}
+
+.comboPersonas .containerClases {
+    margin-right: 10px;
+}
+
+.btnBuscar {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    #buscar {
+        border-radius: 30px;
+        background-color: #2B86C5;
+        color: lavenderblush;
+        width: 100%;
+        &:hover {
+            color: #2B86C5;
+            background-color: lavenderblush;
+        }
+    }
+}
+
+.radios button {
+    display: none;
+}

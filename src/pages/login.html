@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elige vuelos, hoteles y todo lo necesario para que tengas el viaje de tus sueños con el mejor precio">
+    <!--CUSTOM CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.scss" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/main.css">
+    <title>Login || PLANEANDO!</title>
+    <!--BOOTSTRAP 5.2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--FONT AWESOME-->
+    <!--<script src="https://kit.fontawesome.com/4cc74c09d1.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,300;1,100;1,400&display=swap');
+    </style>
+</head>
+
+<body>
+    <main class="pantallaIngreso">
+        <a class="btnAtras" aria-current="page" href="/index.html"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <div class="modalFormSignUp" data-aos="flip-left">
+            <div class="bienvenidoDeNuevo">
+                <div class="mensaje">
+                    <h2>Bienvenido a
+                        <a class="navbar-brand">Planeando!</a>
+                    </h2>
+                    <p>Si ya tienes una cuenta por favor inicia sesión aquí</p>
+                    <button class="btnIngresar" data-aos="flip-left">INICIAR SESION</button>
+                </div>
+            </div>
+            <form class="formulario">
+                <h2 class="crearCuenta">Crear una cuenta</h2>
+                <div class="iconos">
+                    <div class="bordeIcono">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="bordeIcono">
+                        <i class="fab fa-instagram" id="instagram"></i>
+                    </div>
+                    <div class="bordeIcono">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                </div>
+                <p class="cuentaGratis">Para ver tus reservas ingresá o registrate con el email que realizaste la compra.</p>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="correo">
+                <input type="password" placeholder="clave">
+                <input type="button" value="REGISTRARSE">
+            </form>
+        </div>
+        <div class="modalFormSignIn" data-aos="flip-left">
+            <form class="formulario">
+                <h2 class="crearCuenta">Iniciar Sesión</h2>
+                <div class="iconos">
+                    <div class="bordeIcono">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="bordeIcono">
+                        <i class="fab fa-instagram" id="instagram"></i>
+                    </div>
+                    <div class="bordeIcono">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                </div>
+                <p class="cuentaGratis">¿Aún no tiene cuenta?</p>
+                <input type="text" placeholder="correo">
+                <input type="password" placeholder="clave">
+                <input type="button" value="INICIAR SESIÓN">
+            </form>
+            <div class="bienvenidoDeNuevo">
+                <div class="mensaje">
+                    <h2>Bienvenido de nuevo</h2>
+                    <p>Si todavia no tienes una cuenta por favor registrate aquí</p>
+                    <button class="btnRegistrar" data-aos="flip-left">REGISTRARSE</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../public/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
