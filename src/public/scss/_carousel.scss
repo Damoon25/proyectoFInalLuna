@@ -1,0 +1,16 @@
+.carousel-item {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    h1 {
+        font-size: 1.5rem;
+        color: $colorTexto;
+        position: absolute;
+        top: 60px;
+        left: 185px;
+    }
+    h2 {
+        font-size: 1.2rem;
+        color: $colorTexto;
+    }
+}

@@ -9,7 +9,6 @@
     <meta name="description" content="Aquí tenes las mejores ofertas para tus viajes, con los precios mas accesibles, haz tu sueño realidad">
     <!--CUSTOM CSS-->
     <link rel="stylesheet" href="../public/css/main.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--BOOTSTRAP 5.2-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!--FONT AWESOME-->
@@ -19,7 +18,7 @@
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>Alojamiento || PLANEANDO!</title>
+    <title>Paquetes || PLANEANDO!</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,300;1,100;1,400&display=swap');
     </style>
@@ -60,9 +59,8 @@
             </nav>
         </div>
     </header>
-
-
     <main>
+
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -73,7 +71,7 @@
                 <div class="carousel-item active">
                     <img src="../public/img/img_honolulu.jpg" class="img-fluid d-block w-100" alt="img_honolulu.jpg">
                     <div>
-                        <h1>Elije un Hospedaje <br> sin drama <br> con el mejor precio</h1>
+                        <h1>Crea tu Paquete <br> y nosotros te damos <br> el mejor precio</h1>
                     </div>
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Honolulu , Hawai</h2>
@@ -105,40 +103,61 @@
             </button>
         </div>
 
-        <section class="buscaAlojamiento container-fluid">
+        <section class="buscaVuelo">
             <div class="container">
-                <div class="container pb-3 pt-3">
-                    <h1>Encontrá tu hospedaje</h1>
-                </div>
-                <form>
-                    <div class="comboFechaHospe d-xl-flex">
-                        <div class="container mb-4">
-                            <input class="inputAlojamiento form-control-lg" type="search" name="salgoDe" placeholder="Voy a Hospedarme en...">
+                <h2>Encontrá los mejores vuelos</h2>
+                <form class="containerDatos">
+                    <div class="radios">
+                        <ul>
+                            <li>
+                                <input type="radio" name="soloIda" id="soloIda">
+                                <label for="soloIda">Solo ida </label>
+                            </li>
+                            <li>
+                                <input type="radio" name="idaVuelta" id="idaVuelta">
+                                <label for="idaVuelta">Ida y vuelta </label>
+                            </li>
+                            <li>
+                                <input type="radio" name="multidestino" id="multidestino">
+                                <label for="multidestino">Multidestino </label>
+                            </li>
+                            <li>
+                                <div class="btnHospedaje">
+                                    <button>Agregar Hospedaje</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="comboDestinoFecha">
+                        <div class="comboDestino">
+                            <input type="search" name="salgoDe" id="salgoDe" placeholder="Salgo de...">
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <input type="search" name="voy" id="voy" placeholder="Voy a...">
                         </div>
                         <div class="fechas">
-                            <ul class="fechaHospedaje">
+                            <ul>
                                 <li>
                                     <label for="salida">Salida</label>
-                                    <input class="form-control-lg" type="date" name="salida">
+                                    <input type="date" name="salida" id="salida">
                                 </li>
                                 <li>
                                     <label for="salida">Regreso</label>
-                                    <input class="form-control-lg" type="date" name="salida">
+                                    <input type="date" name="salida" id="salida">
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="comboPersonas">
-                        <select class="form-control-lg" name="personas" id="personas">
+                        <select name="personas" id="personas">
                             <option>Adultos</option>
                             <option>Menores</option>
                             <option>Bebes</option>
                         </select>
-                        <input class="form-control" type="number" name="personas" id="cantidad" placeholder="cantidad">
+                        <input type="number" name="personas" id="cantidad" placeholder="cantidad">
                         </select>
                         <div class="containerClases">
                             <label for="clases">Clase</label>
-                            <select name="clases" class="form-control-lg">
+                            <select name="clases" class="clases">
                                 <option value="1">Todas</option>
                                 <option value="2">Primera</option>
                                 <option value="3">Business</option>
@@ -147,12 +166,191 @@
                             </select>
                         </div>
                     </div>
-                    <div class="btnBuscarHospe m-0 form-control-lg pb-4">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="btnCheck">
+                        <label for="checkbox">Todavía no tengo fecha definida</label>
+                    </div>
+                    <div class="btnBuscar">
                         <button id="buscar">BUSCAR</button>
                     </div>
                 </form>
             </div>
         </section>
+
+
+        <section class="volaArg">
+            <h2>Volá por Argentina, animate!</h2><br><br>
+            <div class="container">
+                <div class="cartas">
+                    <div class="carta" id="carta">
+                        <div class="containerImagen">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Iguazú</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 15.650</b>
+                    </div>
+                    <div class="carta" id="carta1">
+                        <div class="containerImagen1">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Bariloche</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 22.350</b>
+                    </div>
+                    <div class="carta" id="carta2">
+                        <div class="containerImagen2">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Salta</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 17.860</b>
+                    </div>
+                    <div class="carta" id="carta3">
+                        <div class="containerImagen3">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Tierra del Fuego</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 23.350</b>
+                    </div>
+                    <div class="carta" id="carta4">
+                        <div class="containerImagen4 ">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Villa Carlos Páz</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 12.550</b>
+                    </div>
+                    <div class="carta" id="carta5">
+                        <div class="containerImagen5">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Calafate</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 18.990</b>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="volaAfuera">
+            <h2>Descubri nuevos viajes pagando en cuotas!</h2>
+            <div class="container">
+                <div class="cartas">
+                    <div class="carta" id="carta6">
+                        <div class="containerImagen6">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Florianópolis</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 45.550</b>
+                    </div>
+                    <div class="carta" id="carta7">
+                        <div class="containerImagen7">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Los Alpes</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 185.455</b>
+                    </div>
+                    <div class="carta" id="carta8">
+                        <div class="containerImagen8">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Río de Janeiro</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 48.880</b>
+                    </div>
+                    <div class="carta" id="carta9">
+                        <div class="containerImagen9">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Roma</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 250.380</b>
+                    </div>
+                    <div class="carta" id="carta10">
+                        <div class="containerImagen10">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Cancún</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 90.780</b>
+                    </div>
+                    <div class="carta" id="carta11">
+                        <div class="containerImagen11">
+                            <div class="btnVuelo">
+                                <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                            </div>
+                        </div>
+                        <h3>Tokio</h3>
+                        <p>Desde</p>
+                        <span>Buenos Aires</span>
+                        <hr>
+                        <p>Precio</p>
+                        <b>$ 350.980</b>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <section>
             <div class="container">

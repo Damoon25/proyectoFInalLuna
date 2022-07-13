@@ -1,0 +1,38 @@
+.buscaAlojamiento {
+    background-color: $colorPrincipal;
+    background-image: $gradiente;
+    h1 {
+        color: $colorTexto;
+        font-weight: bold;
+    }
+    label {
+        padding: 10px;
+        font-size: 1.3rem;
+        color: lavenderblush;
+    }
+    .inputAlojamiento {
+        width: 100%;
+    }
+    .btnBuscarHospe {
+        #buscar {
+            border-radius: 30px;
+            background-color: #2B86C5;
+            color: lavenderblush;
+            width: 100%;
+            &:hover {
+                color: #2B86C5;
+                background-color: lavenderblush;
+            }
+        }
+    }
+    .fechaHospedaje {
+        display: flex;
+        justify-content: flex-end;
+        li {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+    }
+}

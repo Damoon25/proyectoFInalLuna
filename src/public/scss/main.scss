@@ -1,56 +1,23 @@
+//  Importacion de archivos SCSS
 @import "variables.scss";
 @import "generales.scss";
 @import "nav.scss";
 @import "vuelosForm.scss";
 @import "banco.scss";
-@import "suscribir.scss";
 @import "datosEmpresa.scss";
 @import "footer.scss";
 @import "login.scss";
 @import "vuelosCards.scss";
-.carousel-item {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.carousel-item h1 {
-    font-size: 1.5rem;
-    color: $colorTexto;
-    position: absolute;
-    top: 45px;
-    left: 135px;
-}
-
-
-/*-------------ALOJAMIENTO--------------*/
-
-.buscaAlojamiento {
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-}
-
-.buscaAlojamiento h1 {
-    color: lavenderblush;
-    font-weight: bold;
-}
-
-.inputAlojamiento {
-    width: 100%;
-}
-
-label {
-    font-size: 1.1rem;
-    color: lavenderblush;
-}
-
+@import "carousel.scss";
+@import "alojamiento.scss";
+//  RESPONSIVE
 @media (min-width: 768px) {
     .carousel-item h1 {
         font-size: 2.5rem;
         color: $colorTexto;
         position: absolute;
-        top: 70px;
-        left: 240px;
+        top: 60px;
+        left: 220px;
     }
     .carousel-caption {
         font-size: .8rem;
