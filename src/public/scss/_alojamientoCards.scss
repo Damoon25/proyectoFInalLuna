@@ -1,4 +1,4 @@
-.volaArg {
+.alojamientoArg {
     h2 {
         text-align: center;
         padding-top: 50px;
@@ -11,15 +11,16 @@
         margin: 20px;
     }
     p {
+        margin: 0;
         font-size: $fuenteBody;
         padding-top: 10px;
-        margin: 20px;
+        margin-left: 20px;
     }
     span {
         display: inline-block;
         font-size: $fuenteBody;
         font-weight: bold;
-        padding: 0px 20px 50px 20px;
+        padding: 0px 20px 20px 20px;
     }
     b {
         @extend span
@@ -33,7 +34,7 @@
     align-items: center;
 }
 
-.volaArg {
+.alojamientoArg {
     .container {
         display: grid;
         grid-template-columns: 1fr;
@@ -49,15 +50,19 @@
             border-color: gray;
             box-shadow: $sombraCarta;
         }
-        .btnVuelo {
+        .btnHospedate {
             margin: 0;
             position: relative;
             right: 50px;
             top: 50px;
-            #btnVuelo {
+            #btnHospedate {
                 border-radius: 30px;
                 color: lavenderblush;
             }
+        }
+        .descripcion {
+            color: darkslategray;
+            font-size: .9rem;
         }
     }
 }
@@ -73,7 +78,7 @@
     padding: map-get($carta, cartaPadding);
 }
 
-@for $vueltas from 1 to 12 {
+@for $vueltas from 1 to 6 {
     .containerImagen#{$vueltas} {
         border-radius: map-get($carta, radio);
         margin: 0;
@@ -96,86 +101,4 @@
 
 #carta5 {
     display: none;
-}
-
-#carta9 {
-    display: none;
-}
-
-#carta10 {
-    display: none;
-}
-
-#carta11 {
-    display: none;
-}
-
-
-/* VOLAR EXTERIOR */
-
-.volaAfuera {
-    h2 {
-        text-align: center;
-        padding-top: 50px;
-        color: $colorBody;
-        font-weight: bold;
-        padding-bottom: 50px;
-    }
-    h3 {
-        font-weight: bold;
-        margin: 20px;
-    }
-    p {
-        font-size: $fuenteBody;
-        padding-top: 10px;
-        margin: 20px;
-    }
-    span {
-        display: inline-block;
-        font-size: $fuenteBody;
-        font-weight: bold;
-        padding: 0px 20px 50px 20px;
-    }
-    b {
-        display: inline-block;
-        font-size: $fuenteBody;
-        font-weight: bold;
-        padding: 0px 20px 20px 20px;
-    }
-}
-
-.cartas {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.volaAfuera {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .carta {
-        transition: border-color 0.8s ease;
-        border-radius: 40px;
-        background-color: #efefef;
-        border: 1px solid;
-        border-color: gray;
-        margin-bottom: 30px;
-        &:hover {
-            border-color: gray;
-            box-shadow: $sombraCarta;
-        }
-        .btnVuelo {
-            margin: 0;
-            position: relative;
-            right: 50px;
-            top: 50px;
-            #btnVuelo {
-                border-radius: 30px;
-                color: lavenderblush;
-            }
-        }
-    }
 }

@@ -10,6 +10,7 @@
 @import "vuelosCards.scss";
 @import "carousel.scss";
 @import "alojamiento.scss";
+@import "alojamientoCards.scss";
 //  RESPONSIVE
 @media (min-width: 768px) {
     .carousel-item h1 {
@@ -75,11 +76,15 @@
         border-radius: 40px 40px 0px 0px;
         margin: 0;
         display: flex;
-        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/tierra_del_fuego.jpg');
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         padding: 60px 60px;
+    }
+    .descripcion {
+        color: darkslategray;
+        font-size: 1.2rem;
     }
     /* VUELOS AFUERA */
     #carta9 {
@@ -89,7 +94,7 @@
         border-radius: 40px 40px 0px 0px;
         margin: 0;
         display: flex;
-        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/roma.jpg');
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -235,6 +240,10 @@
     .cartas {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .descripcion {
+        color: darkslategray;
+        font-size: 1.5rem;
+    }
     #carta4 {
         display: block;
     }
@@ -245,7 +254,7 @@
         border-radius: 40px 40px 0px 0px;
         margin: 0;
         display: flex;
-        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/villa_carlos_paz.jpg');
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -255,7 +264,7 @@
         border-radius: 40px 40px 0px 0px;
         margin: 0;
         display: flex;
-        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/calafate.jpg');
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -272,7 +281,7 @@
         border-radius: 40px 40px 0px 0px;
         margin: 0;
         display: flex;
-        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/cancun.jpg');
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -282,7 +291,7 @@
         border-radius: 40px 40px 0px 0px;
         margin: 0;
         display: flex;
-        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/img_japon.png');
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -357,6 +366,7 @@
     }
     /*FOOTER*/
     .texto {
+        display: block;
         color: lavenderblush;
         font-size: 1rem;
         display: flex;
