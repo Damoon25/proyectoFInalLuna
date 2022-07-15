@@ -756,7 +756,7 @@ footer .texto {
   padding-top: 10px;
   margin: 20px;
 }
-.volaAfuera span, .volaAfuera .alojamientoArg b, .alojamientoArg .volaAfuera b, .volaAfuera .volaArg b, .volaArg .volaAfuera b {
+.volaAfuera span, .volaAfuera .paquetesOfertas b, .paquetesOfertas .volaAfuera b, .volaAfuera .alojamientoArg b, .alojamientoArg .volaAfuera b, .volaAfuera .volaArg b, .volaArg .volaAfuera b {
   display: inline-block;
   font-size: 1.2rem;
   font-weight: bold;
@@ -1042,6 +1042,139 @@ footer .texto {
   margin: 0;
   padding: 0;
   padding-bottom: 30px;
+}
+
+.paquetesOfertas h2 {
+  text-align: center;
+  padding-top: 50px;
+  color: rgb(21, 21, 21);
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.paquetesOfertas h3 {
+  font-weight: bold;
+  margin: 20px;
+}
+.paquetesOfertas p {
+  margin: 0;
+  font-size: 1.2rem;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.paquetesOfertas span, .paquetesOfertas b {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0px 20px 20px 20px;
+}
+.cartas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paquetesOfertas .container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.paquetesOfertas .carta {
+  transition: border-color 0.8s ease;
+  border-radius: 40px;
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: gray;
+  margin-bottom: 30px;
+}
+.paquetesOfertas .carta:hover {
+  border-color: gray;
+  box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.3);
+}
+.paquetesOfertas .carta .btnPaquete {
+  margin: 0;
+  position: relative;
+  right: 50px;
+  top: 50px;
+}
+.paquetesOfertas .carta .btnPaquete #btnPaquete {
+  border-radius: 30px;
+  color: lavenderblush;
+}
+.paquetesOfertas .carta .descripcion {
+  color: darkslategray;
+  font-size: 0.9rem;
+}
+
+.containerImagen {
+  border-radius: 40px 40px 0px 0px;
+  margin: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 60px;
+}
+
+.containerImagen1 {
+  border-radius: 40px 40px 0px 0px;
+  margin: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 60px;
+}
+
+.containerImagen2 {
+  border-radius: 40px 40px 0px 0px;
+  margin: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 60px;
+}
+
+.containerImagen3 {
+  border-radius: 40px 40px 0px 0px;
+  margin: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 60px;
+}
+
+.containerImagen4 {
+  border-radius: 40px 40px 0px 0px;
+  margin: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 60px;
+}
+
+.containerImagen5 {
+  border-radius: 40px 40px 0px 0px;
+  margin: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 60px;
+}
+
+#carta3 {
+  display: none;
+}
+
+#carta4 {
+  display: none;
+}
+
+#carta5 {
+  display: none;
 }
 
 @media (min-width: 578px) {
