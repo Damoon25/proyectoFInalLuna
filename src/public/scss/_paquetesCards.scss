@@ -67,29 +67,6 @@
     }
 }
 
-.containerImagen {
-    border-radius: map-get($carta, radio);
-    margin: 0;
-    display: map-get($carta, $key: flex);
-    background-image: map-get($carta, sombra), url('../img/puerto_iguazu.jpg');
-    background-repeat: map-get($carta, bgRepetir);
-    background-size: map-get($carta, bgTamaño);
-    background-position: map-get($carta, bgPosicion);
-    padding: map-get($carta, cartaPadding);
-}
-
-@for $vueltas from 1 to 6 {
-    .containerImagen#{$vueltas} {
-        border-radius: map-get($carta, radio);
-        margin: 0;
-        display: map-get($carta, $key: flex);
-        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/puerto_iguazu.jpg');
-        background-repeat: map-get($carta, bgRepetir);
-        background-size: map-get($carta, bgTamaño);
-        background-position: map-get($carta, bgPosicion);
-        padding: map-get($carta, cartaPadding);
-    }
-}
 
 #carta3 {
     display: none;
