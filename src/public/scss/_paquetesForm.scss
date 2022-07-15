@@ -1,0 +1,65 @@
+.buscaPaquete {
+    color: $colorTexto;
+    margin: 0;
+    padding: 0;
+    background-color: $colorPrincipal;
+    background-image: $gradiente;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    ul {
+        li {
+            list-style-type: none;
+        }
+    }
+    h2 {
+        text-align: center;
+        font-size: 1.4rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .radios {
+        ul {
+            li {
+                padding-bottom: 10px;
+            }
+        }
+    }
+    .combo {
+        ul {
+            li {
+                #salgoDe,
+                #voyA {
+                    width: 100%;
+                }
+                label {
+                    padding: 10px 10px 10px 0px;
+                }
+                input {
+                    margin-bottom: 10px;
+                }
+                #salida,
+                #regreso {
+                    width: 36%;
+                }
+                .btnDestino {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    button {
+                        display: block;
+                        border-radius: 30px;
+                        font-weight: 500;
+                    }
+                }
+                .comboPersonas {
+                    margin-bottom: 0;
+                }
+                .btnBuscar {
+                    margin: 0;
+                    padding: 0;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+}

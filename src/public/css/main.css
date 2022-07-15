@@ -306,7 +306,7 @@ footer .texto {
 }
 .pantallaIngreso .modalFormSignUp {
   width: 70%;
-  height: 700px;
+  height: 800px;
   display: flex;
   justify-content: space-around;
 }
@@ -338,26 +338,26 @@ footer .texto {
   font-family: "Kaushan Script", cursive;
   font-size: 3rem;
 }
-.pantallaIngreso .formulario {
+.pantallaIngreso .formularioLogin {
   transition: border-color 0.8s ease;
   text-align: center;
   width: 350px;
-  padding: 1rem;
+  padding: 1.2rem;
   margin: 2rem;
   background-color: #FF3CAC;
   background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
   border: 3px;
   border-radius: 50px;
 }
-.pantallaIngreso .formulario:hover {
+.pantallaIngreso .formularioLogin:hover {
   border-color: lavenderblush;
   box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.5);
 }
-.pantallaIngreso .formulario .crearCuenta {
+.pantallaIngreso .formularioLogin .crearCuenta {
   padding: 2.7rem 0;
   font-size: 1.7rem;
 }
-.pantallaIngreso .formulario .iconos {
+.pantallaIngreso .formularioLogin .iconos {
   color: lavenderblush;
   font-size: 22px;
   width: 200px;
@@ -365,7 +365,7 @@ footer .texto {
   justify-content: space-around;
   margin: auto;
 }
-.pantallaIngreso .formulario .iconos .bordeIcono {
+.pantallaIngreso .formularioLogin .iconos .bordeIcono {
   height: 20px;
   width: 20px;
   display: flex;
@@ -376,7 +376,7 @@ footer .texto {
   font-size: 1.5rem;
   transition: all 0.3s ease-in;
 }
-.pantallaIngreso .formulario .cuentaGratis {
+.pantallaIngreso .formularioLogin .cuentaGratis {
   color: lavenderblush;
   font-weight: lighter;
   display: flex;
@@ -385,7 +385,7 @@ footer .texto {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.pantallaIngreso .formulario input {
+.pantallaIngreso .formularioLogin input {
   width: 90%;
   display: block;
   margin: auto;
@@ -397,7 +397,7 @@ footer .texto {
   font-size: 0.9rem;
   color: darkslategray;
 }
-.pantallaIngreso .formulario input[type=button] {
+.pantallaIngreso .formularioLogin input[type=button] {
   width: 60%;
   margin: auto;
   transition: border-color 0.8s ease;
@@ -411,7 +411,110 @@ footer .texto {
   border-width: 2px;
   cursor: pointer;
 }
-.pantallaIngreso .formulario input[type=button]:hover {
+.pantallaIngreso .formularioLogin input[type=button]:hover {
+  color: #2B86C5;
+  background-color: lavenderblush;
+  box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
+}
+.pantallaIngreso .formularioLogin button {
+  padding-bottom: 50px;
+}
+.pantallaIngreso .mensaje2 {
+  padding: 1rem;
+}
+.pantallaIngreso .mensaje2 h2 {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+.pantallaIngreso .mensaje2 p {
+  color: lavenderblush;
+  font-weight: 500;
+}
+.pantallaIngreso .mensaje2 button {
+  border-radius: 30px;
+  color: lavenderblush;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.pantallaIngreso .mensaje2 .navbar-brand {
+  color: lavenderblush;
+  font-family: "Kaushan Script", cursive;
+  font-size: 3rem;
+}
+.pantallaIngreso .formularioRegister {
+  transition: border-color 0.8s ease;
+  text-align: center;
+  width: 350px;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  border: 3px;
+  border-radius: 50px;
+}
+.pantallaIngreso .formularioRegister:hover {
+  border-color: lavenderblush;
+  box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.5);
+}
+.pantallaIngreso .formularioRegister .crearCuenta {
+  padding: 2.7rem 0;
+  font-size: 1.7rem;
+}
+.pantallaIngreso .formularioRegister .iconos {
+  color: lavenderblush;
+  font-size: 22px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.pantallaIngreso .formularioRegister .iconos .bordeIcono {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in;
+}
+.pantallaIngreso .formularioRegister .cuentaGratis {
+  color: lavenderblush;
+  font-weight: lighter;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.pantallaIngreso .formularioRegister input {
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  background-color: lavenderblush;
+  text-align: center;
+  outline: none;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  color: darkslategray;
+}
+.pantallaIngreso .formularioRegister input[type=button] {
+  width: 60%;
+  margin: auto;
+  transition: border-color 0.8s ease;
+  color: lavenderblush;
+  background-color: #2B86C5;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 30px;
+  border-color: rgba(200, 200, 200, 0.3);
+  border-width: 2px;
+  cursor: pointer;
+}
+.pantallaIngreso .formularioRegister input[type=button]:hover {
   color: #2B86C5;
   background-color: lavenderblush;
   box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
@@ -887,6 +990,114 @@ footer .texto {
   display: none;
 }
 
+.buscaPaquete {
+  color: lavenderblush;
+  margin: 0;
+  padding: 0;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.buscaPaquete ul li {
+  list-style-type: none;
+}
+.buscaPaquete h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.buscaPaquete .radios ul li {
+  padding-bottom: 10px;
+}
+.buscaPaquete .combo ul li #salgoDe,
+.buscaPaquete .combo ul li #voyA {
+  width: 100%;
+}
+.buscaPaquete .combo ul li label {
+  padding: 10px 10px 10px 0px;
+}
+.buscaPaquete .combo ul li input {
+  margin-bottom: 10px;
+}
+.buscaPaquete .combo ul li #salida,
+.buscaPaquete .combo ul li #regreso {
+  width: 36%;
+}
+.buscaPaquete .combo ul li .btnDestino {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.buscaPaquete .combo ul li .btnDestino button {
+  display: block;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.buscaPaquete .combo ul li .comboPersonas {
+  margin-bottom: 0;
+}
+.buscaPaquete .combo ul li .btnBuscar {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 578px) {
+  .pantallaIngreso {
+    height: 1100px;
+    flex-direction: column;
+  }
+  .pantallaIngreso .btnAtras {
+    font-size: 2.5rem;
+  }
+  .pantallaIngreso h2 {
+    color: lavenderblush;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .pantallaIngreso .modalFormSignUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pantallaIngreso .modalFormSignIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pantallaIngreso .mensaje {
+    padding: 1rem;
+  }
+  .pantallaIngreso .mensaje h2 {
+    font-size: 3.5rem;
+    padding: 1rem 0;
+  }
+  .pantallaIngreso .mensaje p {
+    color: lavenderblush;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .pantallaIngreso .mensaje .navbar-brand {
+    font-size: 3.5rem;
+  }
+  .pantallaIngreso .mensaje2 {
+    margin-right: 25px;
+  }
+  .pantallaIngreso .mensaje2 button {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  .pantallaIngreso .formularioLogin {
+    margin: 65px;
+  }
+  .pantallaIngreso .bienvenidoDeNuevo {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
 @media (min-width: 768px) {
   .carousel-item h1 {
     font-size: 2.5rem;
@@ -907,6 +1118,55 @@ footer .texto {
   }
   #empezar {
     font-size: 1.2rem;
+  }
+  /*-------- LOGIN -----------*/
+  .pantallaIngreso {
+    height: 1100px;
+  }
+  .pantallaIngreso .btnAtras {
+    font-size: 3.5rem;
+  }
+  .pantallaIngreso h2 {
+    font-size: 2.5rem;
+  }
+  .pantallaIngreso .mensaje {
+    padding-top: 100px;
+  }
+  .pantallaIngreso .mensaje h2 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+  }
+  .pantallaIngreso .mensaje p {
+    color: lavenderblush;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .pantallaIngreso .mensaje button {
+    font-size: 1.5rem;
+  }
+  .pantallaIngreso .mensaje .navbar-brand {
+    font-size: 2.5rem;
+  }
+  .pantallaIngreso .mensaje2 {
+    padding: 1.5rem;
+  }
+  .pantallaIngreso .mensaje2 h2 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+  }
+  .pantallaIngreso .mensaje2 p {
+    color: lavenderblush;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .pantallaIngreso .mensaje2 button {
+    font-size: 1.3rem;
+  }
+  .pantallaIngreso .formularioRegister {
+    margin: 100px;
+  }
+  .pantallaIngreso .formularioLogin {
+    margin-left: 160px;
   }
   /* FORMULARIO VUELOS */
   .radios {
@@ -975,7 +1235,11 @@ footer .texto {
     background-position: center center;
     padding: 60px 60px;
   }
-  /*-------------ALOJAMIENTO--------------*/
+  /*-------------  PAQUETES  --------------*/
+  .buscaPaquete .combo ul li #salida,
+.buscaPaquete .combo ul li #regreso {
+    width: 40%;
+  }
   /*BANCOS*/
   .bank {
     margin-left: 0px;
@@ -1015,8 +1279,8 @@ footer .texto {
     font-size: 4rem;
     color: lavenderblush;
     position: absolute;
-    top: 150px;
-    left: 500px;
+    top: 100px;
+    left: 300px;
   }
   .carousel-caption {
     font-size: 1.2rem;
@@ -1028,7 +1292,101 @@ footer .texto {
   #titulo {
     font-size: 4.5rem;
   }
-  /* FORMULARIO */
+  /*-------- LOGIN -----------*/
+  .pantallaIngreso {
+    height: 750px;
+  }
+  .pantallaIngreso .btnAtras {
+    font-size: 3rem;
+  }
+  .pantallaIngreso .mensaje {
+    padding-top: 100px;
+  }
+  .pantallaIngreso .mensaje h2 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+  }
+  .pantallaIngreso .mensaje p {
+    color: lavenderblush;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .pantallaIngreso .mensaje button {
+    font-size: 1.1rem;
+  }
+  .pantallaIngreso .mensaje .navbar-brand {
+    font-size: 3.5rem;
+  }
+  .pantallaIngreso .mensaje2 {
+    padding: 0;
+  }
+  .pantallaIngreso .mensaje2 h2 {
+    font-size: 2.5rem;
+    padding: 1.2rem 0;
+  }
+  .pantallaIngreso .mensaje2 p {
+    font-size: 1.3rem;
+  }
+  .pantallaIngreso .mensaje2 button {
+    font-size: 1.1rem;
+  }
+  .pantallaIngreso .modalFormSignUp {
+    flex-direction: row;
+  }
+  .pantallaIngreso .modalFormSignIn {
+    height: 85vh;
+    flex-direction: row;
+  }
+  .pantallaIngreso .formularioRegister {
+    margin: 100px;
+  }
+  .pantallaIngreso .formularioLogin {
+    margin-left: 160px;
+  }
+  /*-------------  PAQUETES  --------------*/
+  .buscaPaquete form {
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+  .buscaPaquete h2 {
+    font-size: 2.2rem;
+  }
+  .buscaPaquete .radios {
+    padding-bottom: 20px;
+  }
+  .buscaPaquete .combo ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .buscaPaquete .combo ul li #salida,
+.buscaPaquete .combo ul li #regreso {
+    width: 39%;
+  }
+  .buscaPaquete .combo ul li .btnDestino {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .buscaPaquete .combo ul li .btnDestino button {
+    display: block;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  .buscaPaquete .combo ul li .btnBuscar {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  .buscaPaquete .combo ul li .comboPersonas .containerClases label {
+    margin-right: 0;
+  }
+  .btnBuscarPaquete {
+    position: relative;
+    bottom: 105px;
+    left: 700px;
+    width: 370px;
+  }
+  /* ------- VUELO -------*/
   .buscaVuelo {
     height: 325px;
   }
@@ -1257,5 +1615,14 @@ footer .texto {
   }
   footer .logo {
     font-size: 4.2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .carousel-item h1 {
+    font-size: 4rem;
+    color: lavenderblush;
+    position: absolute;
+    top: 150px;
+    left: 480px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -105,75 +105,71 @@
             </button>
         </div>
 
-        <section class="buscaVuelo">
+        <section class="buscaPaquete">
             <div class="container">
-                <h2>Encontrá los mejores vuelos</h2>
+                <h2>Encontrá paquetes con alojamiento flexibles</h2>
                 <form class="containerDatos">
                     <div class="radios">
                         <ul>
                             <li>
-                                <input type="radio" name="soloIda" id="soloIda">
-                                <label for="soloIda">Solo ida </label>
+                                <input type="radio" name="armaPaquete" id="armaPaquete">
+                                <label for="armaPaquete">Armá tu paquete </label>
                             </li>
                             <li>
-                                <input type="radio" name="idaVuelta" id="idaVuelta">
-                                <label for="idaVuelta">Ida y vuelta </label>
-                            </li>
-                            <li>
-                                <input type="radio" name="multidestino" id="multidestino">
-                                <label for="multidestino">Multidestino </label>
-                            </li>
-                            <li>
-                                <div class="btnHospedaje">
-                                    <button>Agregar Hospedaje</button>
-                                </div>
+                                <input type="radio" name="paquetesRecomendados" id="paqRecomendados">
+                                <label for="paquetesRecomendados">Paquetes recomendados </label>
                             </li>
                         </ul>
                     </div>
-                    <div class="comboDestinoFecha">
-                        <div class="comboDestino">
-                            <input type="search" name="salgoDe" id="salgoDe" placeholder="Salgo de...">
-                            <i class="fa-solid fa-plane-departure"></i>
-                            <input type="search" name="voy" id="voy" placeholder="Voy a...">
-                        </div>
-                        <div class="fechas">
-                            <ul>
-                                <li>
-                                    <label for="salida">Salida</label>
-                                    <input type="date" name="salida" id="salida">
-                                </li>
-                                <li>
-                                    <label for="salida">Regreso</label>
-                                    <input type="date" name="salida" id="salida">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="comboPersonas">
-                        <select name="personas" id="personas">
-                            <option>Adultos</option>
-                            <option>Menores</option>
-                            <option>Bebes</option>
-                        </select>
-                        <input type="number" name="personas" id="cantidad" placeholder="cantidad">
-                        </select>
-                        <div class="containerClases">
-                            <label for="clases">Clase</label>
-                            <select name="clases" class="clases">
-                                <option value="1">Todas</option>
-                                <option value="2">Primera</option>
-                                <option value="3">Business</option>
-                                <option value="4">Premium</option>
-                                <option value="5">Económica</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="btnCheck">
-                        <label for="checkbox">Todavía no tengo fecha definida</label>
-                    </div>
-                    <div class="btnBuscar">
-                        <button id="buscar">BUSCAR</button>
+                    <div class="combo">
+                        <ul>
+                            <li>
+                                <input type="search" name="salgoDe" id="salgoDe" placeholder="Salgo de...">
+                            </li>
+                            <li>
+                                <input type="search" name="voyA" id="voyA" placeholder="Voy a...">
+                            </li>
+                            <li>
+                                <label for="salida">Salida</label>
+                                <input type="date" name="salida" id="salida">
+                                <label for="regreso">Regreso</label>
+                                <input type="date" name="regreso" id="regreso">
+                            </li>
+                            <li>
+                                <div class="btnDestino">
+                                    <button><i class="fa-solid fa-circle-plus"></i> Agregar Destino</button>
+                                </div>
+                            </li>
+                            <li>
+                                <p><i class="fa-solid fa-clock"></i> Todos los paquetes incluyen vuelta al aeropuerto de origen</p>
+                            </li>
+                            <li>
+                                <div class="comboPersonas">
+                                    <select name="personas" id="personas">
+                                        <option>Adultos</option>
+                                        <option>Menores</option>
+                                        <option>Bebes</option>
+                                    </select>
+                                    <input type="number" name="personas" id="cantidad" placeholder="cantidad">
+                                    </select>
+                                    <div class="containerClases">
+                                        <label for="clases">Clase</label>
+                                        <select name="clases" class="clases">
+                                            <option value="1">Todas</option>
+                                            <option value="2">Primera</option>
+                                            <option value="3">Business</option>
+                                            <option value="4">Premium</option>
+                                            <option value="5">Económica</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btnBuscar">
+                                    <button id="buscar">BUSCAR</button>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </form>
             </div>
