@@ -1,7 +1,6 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +13,15 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damoon25/proyectoFInalLuna.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Damoon25/proyectoFInalLuna/issues"
+  },
+  "homepage": "https://github.com/Damoon25/proyectoFInalLuna#readme",
+  "description": ""
 }
