@@ -11,6 +11,7 @@ input {
   border-radius: 10px;
   padding: 7px 7px;
 }
+
 input:hover {
   border-color: #FF3CAC;
 }
@@ -26,6 +27,7 @@ select {
   border-radius: 10px;
   padding: 7px 7px;
 }
+
 select:hover {
   border-color: #2B86C5;
 }
@@ -41,6 +43,7 @@ button {
   padding: 5px 10px;
   border-width: 2px;
 }
+
 button:hover {
   border-color: #2B86C5;
   box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
@@ -52,6 +55,7 @@ button:hover {
   height: 70px;
   font-size: 1.1rem;
 }
+
 .navbar .navbar-brand {
   color: lavenderblush;
   font-family: "Kaushan Script", cursive;
@@ -67,6 +71,7 @@ button:hover {
   justify-content: center;
   flex-direction: column;
 }
+
 .buscaVuelo h2 {
   text-align: center;
   font-weight: bold;
@@ -74,26 +79,32 @@ button:hover {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
 .buscaVuelo .radios ul {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
 }
+
 .buscaVuelo .radios ul li {
   list-style-type: none;
 }
+
 .buscaVuelo .comboDestino {
   display: flex;
   justify-content: space-around;
 }
+
 .buscaVuelo .comboDestino input {
   width: 315px;
   margin-bottom: 20px;
 }
+
 .buscaVuelo .comboDestino i {
   padding: 10px;
 }
+
 .buscaVuelo .fechas ul {
   margin: 0;
   padding: 0;
@@ -101,6 +112,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
+
 .buscaVuelo .fechas ul li {
   list-style-type: none;
   margin-right: 10px;
@@ -137,12 +149,14 @@ button:hover {
   padding-top: 20px;
   padding-bottom: 30px;
 }
+
 .btnBuscar #buscar {
   border-radius: 30px;
   background-color: #2B86C5;
   color: lavenderblush;
   width: 100%;
 }
+
 .btnBuscar #buscar:hover {
   color: #2B86C5;
   background-color: lavenderblush;
@@ -160,12 +174,15 @@ button:hover {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .bank label {
   margin-top: 5px;
 }
+
 .bank img {
   width: 70px;
 }
+
 .bank #btnBancos {
   border: 1px;
   border-radius: 30px;
@@ -174,6 +191,7 @@ button:hover {
   color: lavenderblush;
   width: 100%;
 }
+
 .bank #btnBancos:hover {
   color: #2B86C5;
   background-color: lavenderblush;
@@ -195,17 +213,20 @@ ul .listBank {
   height: 130px;
   background-color: rgb(111, 111, 111);
 }
+
 .datosEmpresa .container {
   margin-left: 20px;
   margin-right: 20px;
   flex-direction: column;
 }
+
 .datosEmpresa .container p {
   color: lavenderblush;
   text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .datosEmpresa .container a {
   text-decoration: none;
   font-weight: bold;
@@ -213,6 +234,7 @@ ul .listBank {
   color: lavenderblush;
   font-weight: bold;
 }
+
 .datosEmpresa .container #negrita {
   cursor: pointer;
   transition: color 0.5s ease;
@@ -226,6 +248,7 @@ footer {
   text-align: center;
   height: 300px;
 }
+
 footer .logo {
   transition: color 0.3s ease;
   padding-top: 50px;
@@ -237,23 +260,28 @@ footer .logo {
   font-weight: 500;
   font-family: "Kaushan Script", cursive;
 }
+
 footer .logo:hover {
   font-size: 4rem;
 }
+
 footer hr {
   width: 100%;
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
 footer .redes {
   padding-bottom: 30px;
 }
+
 footer i {
   font-size: 1.5rem;
   color: lavenderblush;
   align-items: center;
   padding-right: 10px;
 }
+
 footer a {
   cursor: pointer;
   transition: color 0.5s ease;
@@ -264,11 +292,13 @@ footer a {
   text-decoration: none;
   padding-right: 12px;
 }
+
 footer a:hover {
   color: lavenderblush;
   font-weight: bold;
   font-size: 1.2rem;
 }
+
 footer .texto {
   display: none;
 }
@@ -284,6 +314,7 @@ footer .texto {
   background-size: cover;
   background-position: center center;
 }
+
 .pantallaIngreso .btnAtras {
   color: lavenderblush;
   transition: opacity 0.6s ease;
@@ -291,53 +322,63 @@ footer .texto {
   border-radius: 50px;
   font-size: 3.1rem;
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.8;
   left: 20px;
   top: 20px;
 }
+
 .pantallaIngreso .btnAtras:hover {
   color: lavenderblush;
   opacity: 1;
 }
+
 .pantallaIngreso h2 {
   color: lavenderblush;
   font-size: 2rem;
   font-weight: 500;
 }
+
 .pantallaIngreso .modalFormSignUp {
   width: 70%;
   height: 800px;
   display: flex;
   justify-content: space-around;
 }
+
 .pantallaIngreso .modalFormSignIn {
   width: 90%;
   height: 80vh;
   display: flex;
   justify-content: space-around;
 }
+
 .pantallaIngreso .mensaje {
   padding: 1rem;
 }
+
 .pantallaIngreso .mensaje h2 {
   font-size: 2.5rem;
   padding: 1rem 0;
 }
+
 .pantallaIngreso .mensaje p {
   color: lavenderblush;
   font-weight: 500;
 }
+
 .pantallaIngreso .mensaje button {
   border-radius: 30px;
   color: lavenderblush;
   cursor: pointer;
   margin-top: 2rem;
 }
+
 .pantallaIngreso .mensaje .navbar-brand {
   color: lavenderblush;
   font-family: "Kaushan Script", cursive;
   font-size: 3rem;
 }
+
 .pantallaIngreso .formularioLogin {
   transition: border-color 0.8s ease;
   text-align: center;
@@ -349,14 +390,17 @@ footer .texto {
   border: 3px;
   border-radius: 50px;
 }
+
 .pantallaIngreso .formularioLogin:hover {
   border-color: lavenderblush;
   box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.5);
 }
+
 .pantallaIngreso .formularioLogin .crearCuenta {
   padding: 2.7rem 0;
   font-size: 1.7rem;
 }
+
 .pantallaIngreso .formularioLogin .iconos {
   color: lavenderblush;
   font-size: 22px;
@@ -365,6 +409,7 @@ footer .texto {
   justify-content: space-around;
   margin: auto;
 }
+
 .pantallaIngreso .formularioLogin .iconos .bordeIcono {
   height: 20px;
   width: 20px;
@@ -376,6 +421,7 @@ footer .texto {
   font-size: 1.5rem;
   transition: all 0.3s ease-in;
 }
+
 .pantallaIngreso .formularioLogin .cuentaGratis {
   color: lavenderblush;
   font-weight: lighter;
@@ -385,6 +431,7 @@ footer .texto {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 .pantallaIngreso .formularioLogin input {
   width: 90%;
   display: block;
@@ -397,6 +444,7 @@ footer .texto {
   font-size: 0.9rem;
   color: darkslategray;
 }
+
 .pantallaIngreso .formularioLogin input[type=button] {
   width: 60%;
   margin: auto;
@@ -411,36 +459,44 @@ footer .texto {
   border-width: 2px;
   cursor: pointer;
 }
+
 .pantallaIngreso .formularioLogin input[type=button]:hover {
   color: #2B86C5;
   background-color: lavenderblush;
   box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
 }
+
 .pantallaIngreso .formularioLogin button {
   padding-bottom: 50px;
 }
+
 .pantallaIngreso .mensaje2 {
   padding: 1rem;
 }
+
 .pantallaIngreso .mensaje2 h2 {
   font-size: 2.5rem;
   padding: 1rem 0;
 }
+
 .pantallaIngreso .mensaje2 p {
   color: lavenderblush;
   font-weight: 500;
 }
+
 .pantallaIngreso .mensaje2 button {
   border-radius: 30px;
   color: lavenderblush;
   cursor: pointer;
   margin-top: 2rem;
 }
+
 .pantallaIngreso .mensaje2 .navbar-brand {
   color: lavenderblush;
   font-family: "Kaushan Script", cursive;
   font-size: 3rem;
 }
+
 .pantallaIngreso .formularioRegister {
   transition: border-color 0.8s ease;
   text-align: center;
@@ -452,14 +508,17 @@ footer .texto {
   border: 3px;
   border-radius: 50px;
 }
+
 .pantallaIngreso .formularioRegister:hover {
   border-color: lavenderblush;
   box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.5);
 }
+
 .pantallaIngreso .formularioRegister .crearCuenta {
   padding: 2.7rem 0;
   font-size: 1.7rem;
 }
+
 .pantallaIngreso .formularioRegister .iconos {
   color: lavenderblush;
   font-size: 22px;
@@ -468,6 +527,7 @@ footer .texto {
   justify-content: space-around;
   margin: auto;
 }
+
 .pantallaIngreso .formularioRegister .iconos .bordeIcono {
   height: 20px;
   width: 20px;
@@ -479,6 +539,7 @@ footer .texto {
   font-size: 1.5rem;
   transition: all 0.3s ease-in;
 }
+
 .pantallaIngreso .formularioRegister .cuentaGratis {
   color: lavenderblush;
   font-weight: lighter;
@@ -488,6 +549,7 @@ footer .texto {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 .pantallaIngreso .formularioRegister input {
   width: 90%;
   display: block;
@@ -500,6 +562,7 @@ footer .texto {
   font-size: 0.9rem;
   color: darkslategray;
 }
+
 .pantallaIngreso .formularioRegister input[type=button] {
   width: 60%;
   margin: auto;
@@ -514,26 +577,31 @@ footer .texto {
   border-width: 2px;
   cursor: pointer;
 }
+
 .pantallaIngreso .formularioRegister input[type=button]:hover {
   color: #2B86C5;
   background-color: lavenderblush;
   box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
 }
+
 .pantallaIngreso .bienvenidoDeNuevo {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 .pantallaIngreso .modalFormSignIn {
   position: absolute;
   opacity: 0;
   visibility: hidden;
 }
+
 .pantallaIngreso .modalFormSignIn.active {
   opacity: 1;
   visibility: visible;
 }
+
 .pantallaIngreso .modalFormSignUp.active {
   opacity: 0;
   visibility: hidden;
@@ -546,21 +614,26 @@ footer .texto {
   font-weight: bold;
   padding-bottom: 50px;
 }
+
 .volaArg h3 {
   font-weight: bold;
   margin: 20px;
 }
+
 .volaArg p {
   font-size: 1.2rem;
   padding-top: 10px;
   margin: 20px;
 }
-.volaArg span, .volaArg b {
+
+.volaArg span,
+.volaArg b {
   display: inline-block;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0px 20px 50px 20px;
 }
+
 .cartas {
   display: flex;
   justify-content: center;
@@ -572,6 +645,7 @@ footer .texto {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 .volaArg .carta {
   transition: border-color 0.8s ease;
   border-radius: 40px;
@@ -580,16 +654,19 @@ footer .texto {
   border-color: gray;
   margin-bottom: 30px;
 }
+
 .volaArg .carta:hover {
   border-color: gray;
   box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.3);
 }
+
 .volaArg .carta .btnVuelo {
   margin: 0;
   position: relative;
   right: 50px;
   top: 50px;
 }
+
 .volaArg .carta .btnVuelo #btnVuelo {
   border-radius: 30px;
   color: lavenderblush;
@@ -627,21 +704,31 @@ footer .texto {
   font-weight: bold;
   padding-bottom: 50px;
 }
+
 .volaAfuera h3 {
   font-weight: bold;
   margin: 20px;
 }
+
 .volaAfuera p {
   font-size: 1.2rem;
   padding-top: 10px;
   margin: 20px;
 }
-.volaAfuera span, .volaAfuera .paquetesOfertas b, .paquetesOfertas .volaAfuera b, .volaAfuera .alojamientoArg b, .alojamientoArg .volaAfuera b, .volaAfuera .volaArg b, .volaArg .volaAfuera b {
+
+.volaAfuera span,
+.volaAfuera .paquetesOfertas b,
+.paquetesOfertas .volaAfuera b,
+.volaAfuera .alojamientoArg b,
+.alojamientoArg .volaAfuera b,
+.volaAfuera .volaArg b,
+.volaArg .volaAfuera b {
   display: inline-block;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0px 20px 50px 20px;
 }
+
 .volaAfuera b {
   display: inline-block;
   font-size: 1.2rem;
@@ -660,6 +747,7 @@ footer .texto {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 .volaAfuera .carta {
   transition: border-color 0.8s ease;
   border-radius: 40px;
@@ -668,16 +756,19 @@ footer .texto {
   border-color: gray;
   margin-bottom: 30px;
 }
+
 .volaAfuera .carta:hover {
   border-color: gray;
   box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.3);
 }
+
 .volaAfuera .carta .btnVuelo {
   margin: 0;
   position: relative;
   right: 50px;
   top: 50px;
 }
+
 .volaAfuera .carta .btnVuelo #btnVuelo {
   border-radius: 30px;
   color: lavenderblush;
@@ -688,6 +779,7 @@ footer .texto {
   display: inline-block;
   text-align: center;
 }
+
 .carousel-item h1 {
   font-size: 1.5rem;
   color: lavenderblush;
@@ -695,6 +787,7 @@ footer .texto {
   top: 60px;
   left: 185px;
 }
+
 .carousel-item h2 {
   font-size: 1.2rem;
   color: lavenderblush;
@@ -704,32 +797,39 @@ footer .texto {
   background-color: #FF3CAC;
   background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
+
 .buscaAlojamiento h1 {
   color: lavenderblush;
   font-weight: bold;
 }
+
 .buscaAlojamiento label {
   padding: 10px;
   font-size: 1.3rem;
   color: lavenderblush;
 }
+
 .buscaAlojamiento .inputAlojamiento {
   width: 100%;
 }
+
 .buscaAlojamiento .btnBuscarHospe #buscar {
   border-radius: 30px;
   background-color: #2B86C5;
   color: lavenderblush;
   width: 100%;
 }
+
 .buscaAlojamiento .btnBuscarHospe #buscar:hover {
   color: #2B86C5;
   background-color: lavenderblush;
 }
+
 .buscaAlojamiento .fechaHospedaje {
   display: flex;
   justify-content: flex-end;
 }
+
 .buscaAlojamiento .fechaHospedaje li {
   margin: 0;
   display: flex;
@@ -744,22 +844,27 @@ footer .texto {
   font-weight: bold;
   padding-bottom: 50px;
 }
+
 .alojamientoArg h3 {
   font-weight: bold;
   margin: 20px;
 }
+
 .alojamientoArg p {
   margin: 0;
   font-size: 1.2rem;
   padding-top: 10px;
   margin-left: 20px;
 }
-.alojamientoArg span, .alojamientoArg b {
+
+.alojamientoArg span,
+.alojamientoArg b {
   display: inline-block;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0px 20px 20px 20px;
 }
+
 .cartas {
   display: flex;
   justify-content: center;
@@ -771,6 +876,7 @@ footer .texto {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 .alojamientoArg .carta {
   transition: border-color 0.8s ease;
   border-radius: 40px;
@@ -779,20 +885,24 @@ footer .texto {
   border-color: gray;
   margin-bottom: 30px;
 }
+
 .alojamientoArg .carta:hover {
   border-color: gray;
   box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.3);
 }
+
 .alojamientoArg .carta .btnHospedate {
   margin: 0;
   position: relative;
   right: 50px;
   top: 50px;
 }
+
 .alojamientoArg .carta .btnHospedate #btnHospedate {
   border-radius: 30px;
   color: lavenderblush;
 }
+
 .alojamientoArg .carta .descripcion {
   color: darkslategray;
   font-size: 0.9rem;
@@ -820,44 +930,55 @@ footer .texto {
   justify-content: center;
   flex-direction: column;
 }
+
 .buscaPaquete ul li {
   list-style-type: none;
 }
+
 .buscaPaquete h2 {
   text-align: center;
   font-size: 1.4rem;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .buscaPaquete .radios ul li {
   padding-bottom: 10px;
 }
+
 .buscaPaquete .combo ul li #salgoDe,
 .buscaPaquete .combo ul li #voyA {
   width: 100%;
 }
+
 .buscaPaquete .combo ul li label {
   padding: 10px 10px 10px 0px;
 }
+
 .buscaPaquete .combo ul li input {
   margin-bottom: 10px;
 }
+
 .buscaPaquete .combo ul li #salida,
 .buscaPaquete .combo ul li #regreso {
   width: 36%;
 }
+
 .buscaPaquete .combo ul li .btnDestino {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .buscaPaquete .combo ul li .btnDestino button {
   display: block;
   border-radius: 30px;
   font-weight: 500;
 }
+
 .buscaPaquete .combo ul li .comboPersonas {
   margin-bottom: 0;
 }
+
 .buscaPaquete .combo ul li .btnBuscar {
   margin: 0;
   padding: 0;
@@ -871,22 +992,27 @@ footer .texto {
   font-weight: bold;
   padding-bottom: 50px;
 }
+
 .paquetesOfertas h3 {
   font-weight: bold;
   margin: 20px;
 }
+
 .paquetesOfertas p {
   margin: 0;
   font-size: 1.2rem;
   padding-top: 10px;
   margin-left: 20px;
 }
-.paquetesOfertas span, .paquetesOfertas b {
+
+.paquetesOfertas span,
+.paquetesOfertas b {
   display: inline-block;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0px 20px 20px 20px;
 }
+
 .cartas {
   display: flex;
   justify-content: center;
@@ -898,6 +1024,7 @@ footer .texto {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 .paquetesOfertas .carta {
   transition: border-color 0.8s ease;
   border-radius: 40px;
@@ -906,20 +1033,24 @@ footer .texto {
   border-color: gray;
   margin-bottom: 30px;
 }
+
 .paquetesOfertas .carta:hover {
   border-color: gray;
   box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.3);
 }
+
 .paquetesOfertas .carta .btnPaquete {
   margin: 0;
   position: relative;
   right: 50px;
   top: 50px;
 }
+
 .paquetesOfertas .carta .btnPaquete #btnPaquete {
   border-radius: 30px;
   color: lavenderblush;
 }
+
 .paquetesOfertas .carta .descripcion {
   color: darkslategray;
   font-size: 0.9rem;
@@ -940,7 +1071,7 @@ footer .texto {
 .containerImagen {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -950,7 +1081,7 @@ footer .texto {
 .containerImagen1 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -960,7 +1091,7 @@ footer .texto {
 .containerImagen2 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -970,7 +1101,7 @@ footer .texto {
 .containerImagen3 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -980,7 +1111,7 @@ footer .texto {
 .containerImagen4 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -990,7 +1121,7 @@ footer .texto {
 .containerImagen5 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1000,7 +1131,7 @@ footer .texto {
 .containerImagen6 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1010,7 +1141,7 @@ footer .texto {
 .containerImagen7 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1020,7 +1151,7 @@ footer .texto {
 .containerImagen8 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1030,7 +1161,7 @@ footer .texto {
 .containerImagen9 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1040,7 +1171,7 @@ footer .texto {
 .containerImagen10 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1050,11 +1181,84 @@ footer .texto {
 .containerImagen11 {
   border-radius: 40px 40px 0px 0px;
   margin: 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/puerto_iguazu.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/viajes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 60px 60px;
+}
+
+@media (min-width: 375px) {
+  .pantallaIngreso {
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  .pantallaIngreso .btnAtras {
+    font-size: 2rem;
+  }
+
+  .pantallaIngreso h2 {
+    color: lavenderblush;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .pantallaIngreso .modalFormSignUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pantallaIngreso .modalFormSignIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pantallaIngreso .mensaje {
+    padding: 1rem;
+  }
+
+  .pantallaIngreso .mensaje h2 {
+    font-size: 3.5rem;
+    padding: 1rem 0;
+  }
+
+  .pantallaIngreso .mensaje p {
+    color: lavenderblush;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .pantallaIngreso .mensaje .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .pantallaIngreso .mensaje2 {
+    margin-right: 0;
+  }
+
+  .pantallaIngreso .mensaje2 button {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+
+  .pantallaIngreso .formularioLogin {
+    margin: 30px;
+    width: 270px;
+  }
+
+  .pantallaIngreso .formularioRegister {
+    margin: 0;
+    width: 260px;
+  }
+
+  .pantallaIngreso .bienvenidoDeNuevo {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 578px) {
@@ -1062,55 +1266,68 @@ footer .texto {
     height: 1100px;
     flex-direction: column;
   }
+
   .pantallaIngreso .btnAtras {
     font-size: 2.5rem;
   }
+
   .pantallaIngreso h2 {
     color: lavenderblush;
     font-size: 2rem;
     font-weight: 500;
   }
+
   .pantallaIngreso .modalFormSignUp {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .pantallaIngreso .modalFormSignIn {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .pantallaIngreso .mensaje {
     padding: 1rem;
   }
+
   .pantallaIngreso .mensaje h2 {
     font-size: 3.5rem;
     padding: 1rem 0;
   }
+
   .pantallaIngreso .mensaje p {
     color: lavenderblush;
     font-weight: 500;
     font-size: 1.2rem;
   }
+
   .pantallaIngreso .mensaje .navbar-brand {
     font-size: 3.5rem;
   }
+
   .pantallaIngreso .mensaje2 {
     margin-right: 25px;
   }
+
   .pantallaIngreso .mensaje2 button {
     font-size: 1.2rem;
     margin-right: 10px;
   }
+
   .pantallaIngreso .formularioLogin {
     margin: 65px;
   }
+
   .pantallaIngreso .bienvenidoDeNuevo {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
   }
 }
+
 @media (min-width: 768px) {
   .carousel-item h1 {
     font-size: 2.5rem;
@@ -1119,140 +1336,174 @@ footer .texto {
     top: 60px;
     left: 220px;
   }
+
   .carousel-caption {
     font-size: 0.8rem;
     opacity: 0.6;
   }
+
   #imgPrincipal {
     height: 500px;
   }
+
   #titulo {
     font-size: 3.5rem;
   }
+
   #empezar {
     font-size: 1.2rem;
   }
+
   /*-------- LOGIN -----------*/
   .pantallaIngreso {
     height: 1100px;
   }
+
   .pantallaIngreso .btnAtras {
     font-size: 3.5rem;
   }
+
   .pantallaIngreso h2 {
     font-size: 2.5rem;
   }
+
   .pantallaIngreso .mensaje {
     padding-top: 100px;
   }
+
   .pantallaIngreso .mensaje h2 {
     font-size: 2.5rem;
     padding: 1rem 0;
   }
+
   .pantallaIngreso .mensaje p {
     color: lavenderblush;
     font-weight: 500;
     font-size: 1.2rem;
   }
+
   .pantallaIngreso .mensaje button {
     font-size: 1.5rem;
   }
+
   .pantallaIngreso .mensaje .navbar-brand {
     font-size: 2.5rem;
   }
+
   .pantallaIngreso .mensaje2 {
     padding: 1.5rem;
   }
+
   .pantallaIngreso .mensaje2 h2 {
     font-size: 2.5rem;
     padding: 1rem 0;
   }
+
   .pantallaIngreso .mensaje2 p {
     color: lavenderblush;
     font-weight: 500;
     font-size: 1.2rem;
   }
+
   .pantallaIngreso .mensaje2 button {
     font-size: 1.3rem;
   }
+
   .pantallaIngreso .formularioRegister {
     margin: 100px;
   }
+
   .pantallaIngreso .formularioLogin {
     margin-left: 160px;
   }
+
   /* FORMULARIO VUELOS */
   .radios {
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
+
   .radios ul li {
     margin-right: 50px;
   }
+
   .comboDestino input {
     width: 300px;
   }
+
   .fechas input {
     width: 255px;
   }
+
   .comboPersonas #cantidad {
     padding: 0;
     text-align: center;
     width: 150px;
   }
+
   .comboPersonas select {
     margin: 0;
     width: 200px;
   }
+
   .comboPersonas .containerClases {
     margin-right: 10px;
   }
+
   /* VUELOS ARGENTINA */
   .volaArg h2 {
     font-size: 2.3rem;
   }
+
   .cartas {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
+
   #carta3 {
     display: block;
   }
+
   .containerImagen4 {
     border-radius: 40px 40px 0px 0px;
     margin: 0;
     display: flex;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), url("../img/viajes.png"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 60px 60px;
   }
+
   .descripcion {
     color: darkslategray;
     font-size: 1.2rem;
   }
+
   /* VUELOS AFUERA */
   #carta9 {
     display: block;
   }
+
   .containerImagen10 {
     border-radius: 40px 40px 0px 0px;
     margin: 0;
     display: flex;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), url("../img/viajes.png"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 60px 60px;
   }
+
   /*-------------  PAQUETES  --------------*/
   .buscaPaquete .combo ul li #salida,
-.buscaPaquete .combo ul li #regreso {
+  .buscaPaquete .combo ul li #regreso {
     width: 40%;
   }
+
   /*BANCOS*/
   .bank {
     margin-left: 0px;
@@ -1262,32 +1513,43 @@ footer .texto {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .bank img {
     width: 80px;
   }
+
   .bank ul li {
     list-style-type: none;
   }
+
   ul .listBank {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
+
   .suscribir {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   #suscribir label {
     padding-bottom: 0px;
     margin-right: 20px;
   }
+
   #suscribir input {
     margin: 0;
     width: 60%;
   }
 }
+
 @media (min-width: 1200px) {
+  body {
+    height: auto;
+  }
+
   .carousel-item h1 {
     font-size: 4rem;
     color: lavenderblush;
@@ -1295,296 +1557,363 @@ footer .texto {
     top: 100px;
     left: 300px;
   }
+
   .carousel-caption {
     font-size: 1.2rem;
     opacity: 0.8;
   }
+
   #imgPrincipal {
     height: 700px;
   }
+
   #titulo {
     font-size: 4.5rem;
   }
+
   /*-------- LOGIN -----------*/
   .pantallaIngreso {
-    height: 735px;
+    height: auto;
   }
+
   .pantallaIngreso .btnAtras {
     font-size: 3rem;
   }
+
   .pantallaIngreso .mensaje {
     padding-top: 100px;
   }
+
   .pantallaIngreso .mensaje h2 {
     font-size: 2.5rem;
     padding: 1rem 0;
   }
+
   .pantallaIngreso .mensaje p {
     color: lavenderblush;
     font-weight: 500;
     font-size: 1.2rem;
   }
+
   .pantallaIngreso .mensaje button {
     font-size: 1.1rem;
   }
+
   .pantallaIngreso .mensaje .navbar-brand {
     font-size: 3.5rem;
   }
+
   .pantallaIngreso .mensaje2 {
     padding: 0;
   }
+
   .pantallaIngreso .mensaje2 h2 {
     font-size: 2.5rem;
     padding: 1.2rem 0;
   }
+
   .pantallaIngreso .mensaje2 p {
     font-size: 1.3rem;
   }
+
   .pantallaIngreso .mensaje2 button {
     font-size: 1.1rem;
   }
+
   .pantallaIngreso .modalFormSignUp {
     flex-direction: row;
   }
+
   .pantallaIngreso .modalFormSignIn {
     height: 85vh;
     flex-direction: row;
   }
+
   .pantallaIngreso .formularioRegister {
     margin: 100px;
   }
+
   .pantallaIngreso .formularioLogin {
     margin-left: 160px;
   }
+
   /*-------------  PAQUETES  --------------*/
   .buscaPaquete form {
     margin-left: 170px;
     margin-right: 170px;
   }
+
   .buscaPaquete h2 {
     font-size: 2.2rem;
   }
+
   .buscaPaquete .radios {
     padding-bottom: 20px;
   }
+
   .buscaPaquete .combo ul {
     flex-direction: column;
     justify-content: center;
   }
+
   .buscaPaquete .combo ul li #salida,
-.buscaPaquete .combo ul li #regreso {
+  .buscaPaquete .combo ul li #regreso {
     width: 39%;
   }
+
   .buscaPaquete .combo ul li .btnDestino {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .buscaPaquete .combo ul li .btnDestino button {
     display: block;
     border-radius: 30px;
     font-weight: 500;
   }
+
   .buscaPaquete .combo ul li .btnBuscar {
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
   }
+
   .buscaPaquete .combo ul li .comboPersonas .containerClases label {
     margin-right: 0;
   }
+
   .btnBuscarPaquete {
     position: relative;
     bottom: 105px;
     left: 700px;
     width: 370px;
   }
+
   /* ------- VUELO -------*/
   .buscaVuelo {
     height: 325px;
   }
+
   .buscaVuelo form {
     margin: 0;
     padding: 0;
   }
+
   .buscaVuelo h2 {
     padding-top: 50px;
     text-align: start;
   }
+
   .radios ul {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 0;
   }
+
   .radios ul li {
     margin-right: 50px;
   }
+
   .radios button {
     display: block;
     border-radius: 30px;
     font-weight: 500;
   }
+
   .radios li .btnHospedaje {
     padding-bottom: 30px;
   }
+
   .comboDestinoFecha {
     display: flex;
     justify-content: flex-start;
   }
+
   .comboDestino {
     display: flex;
     justify-content: flex-start;
     margin-right: 20px;
   }
+
   .comboDestino i {
     font-size: 1.3rem;
     padding: 10px;
   }
+
   .comboDestino input {
     text-align: start;
     padding: 10px;
     width: 250px;
     margin-bottom: 20px;
   }
+
   .fechas ul {
     display: flex;
     justify-content: flex-start;
   }
+
   .fechas input {
     width: 175px;
     padding: 10px;
     margin-left: 10px;
   }
+
   .comboPersonas {
     display: flex;
     justify-content: flex-start;
     padding-bottom: 20px;
   }
+
   .comboPersonas #cantidad {
     padding: 0;
     text-align: center;
     width: 150px;
   }
+
   .comboPersonas select {
     margin: 0;
     width: 200px;
     padding: 10px;
     margin-right: 20px;
   }
+
   .containerClases label {
     margin-right: 20px;
     margin-left: 20px;
   }
+
   .btnBuscar {
     position: relative;
     bottom: 105px;
     left: 700px;
     width: 370px;
   }
+
   /* VUELOS ARGENTINA */
   .cartas {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .descripcion {
     color: darkslategray;
     font-size: 1.5rem;
   }
+
   #carta4 {
     display: block;
   }
+
   #carta5 {
     display: block;
   }
+
   .containerImagen5 {
     border-radius: 40px 40px 0px 0px;
     margin: 0;
     display: flex;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), url("../img/viajes.png"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 60px 60px;
   }
+
   .containerImagen6 {
     border-radius: 40px 40px 0px 0px;
     margin: 0;
     display: flex;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), url("../img/viajes.png"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 60px 60px;
   }
+
   /* VUELOS AFUERA */
   #carta10 {
     display: block;
   }
+
   #carta11 {
     display: block;
   }
+
   .containerImagen11 {
     border-radius: 40px 40px 0px 0px;
     margin: 0;
     display: flex;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), url("../img/viajes.png"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 60px 60px;
   }
+
   .containerImagen12 {
     border-radius: 40px 40px 0px 0px;
     margin: 0;
     display: flex;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), url("../img/viajes.png"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 60px 60px;
   }
+
   /*-----ALOJAMIENTO------*/
   .buscaAlojamiento {
     height: 250px;
   }
+
   .fechaHospedaje li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
   label {
     font-size: 1.3rem;
     color: lavenderblush;
   }
+
   .btnBuscarHospe {
     position: relative;
     bottom: 73px;
     left: 700px;
     width: 370px;
   }
+
   /* BANCOS */
   .bank img {
     width: 120px;
   }
+
   .bank p {
     font-size: 1.2rem;
   }
+
   .bank div {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
   }
+
   .bank .listBank li {
     margin-right: 40px;
   }
+
   #btnBancos {
     width: 20%;
     height: 50%;
   }
+
   /* SUSCRIBIR */
   #suscribir {
     display: flex;
   }
+
   .suscribir .container {
     margin: 0px;
     padding: 0px;
@@ -1592,6 +1921,7 @@ footer .texto {
     flex-direction: row;
     text-align: center;
   }
+
   .container #suscribir {
     padding: 0px 20px;
     display: flex;
@@ -1599,16 +1929,20 @@ footer .texto {
     text-align: center;
     padding-bottom: 20px;
   }
+
   #suscribir p {
     width: 50px;
   }
+
   #suscribir input {
     margin: 0;
     width: 10px;
   }
+
   #btnSuscribir {
     width: 200px;
   }
+
   /*FOOTER*/
   .texto {
     display: block;
@@ -1617,19 +1951,24 @@ footer .texto {
     display: flex;
     text-align: center;
   }
+
   footer {
     height: 350px;
   }
+
   footer a {
     font-weight: 400;
   }
+
   footer i {
     font-size: 25px;
   }
+
   footer .logo {
     font-size: 4.2rem;
   }
 }
+
 @media (min-width: 1400px) {
   .carousel-item h1 {
     font-size: 4rem;
@@ -1638,4 +1977,6 @@ footer .texto {
     top: 150px;
     left: 480px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
